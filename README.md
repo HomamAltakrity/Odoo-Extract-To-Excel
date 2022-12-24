@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Odoo---Extract-To-Excel-
 Odoo V15 Module to extract data fields to an excel file can be customized depending on your needs
 
