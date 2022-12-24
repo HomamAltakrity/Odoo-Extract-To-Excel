@@ -1,0 +1,17 @@
+<!-- In the XML file for your view -->
+<odoo>
+  <data>
+    <record id="view_my_model_form" model="ir.ui.view">
+      <!-- Add the button to the form view -->
+      <field name="arch" type="xml">
+        <form>
+          <!-- Other form elements here -->
+          <header>
+            <!-- Other header elements here -->
+            <button name="export_data_to_excel" string="Export to Excel" type="object" icon="fa-file-excel-o"/>
+          </header>
+        </form>
+      </field>
+    </record>
+  </data>
+</odoo>
